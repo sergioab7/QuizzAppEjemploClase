@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+}
+
+#container{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border:0;
+    height:450px;
+    width:60%;
+    padding:15px;
+    border-radius:10px;
+}
+
+.linea{
+    border:1px solid black;
+    margin:10px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.preguntas{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:250px;
+}
+
+.preguntas > button{
+    width:80%;
+    padding:10px;
+    margin:5px;
+    background-color: white;
+    border:1px solid black;
+    cursor:pointer;
+    font-weight: 500;
+    border-radius:8px;
+    transition: all 300ms;
+}
+
+.preguntas > button:hover{
+    background-color: rgb(218, 119, 211);
+    color:white;
+}
+
+
+.btnNext{
+    display:flex;
+    justify-content: center;
+
+}
+
+.btnNext > button{
+    padding:10px;
+    width:120px;
+    background-color: rgb(218, 119, 211);
+    color:white;
+    border:0;
+    cursor:pointer;
+    border-radius:5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 300ms;
+}
+
+.btnNext > button:hover{
+    transform: scale(1.2);
+}
+
+.sombreado{
+    background-color: lightgreen !important;
+    color:white;
+}
+
+.quitar{
+    display:none;
+}

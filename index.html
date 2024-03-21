@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>QuizzApp</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h2 class="titulo">Quizz App League</h2>
+        </header>
+    
+        <div class="linea"></div>
+    
+        <main class="main">  
+            <div>
+                <h3 class="tituloPregunta">1. Which is larges animal in the world?</h3>
+            </div>
+            <section class="preguntas">
+                <button id="1" class="pregunta1 respuestas">Shark</button>
+                <button id="2" class="pregunta2 respuestas">Camaleon</button>
+                <button id="3" class="pregunta3 respuestas">Fish</button>
+                <button id="4" class="pregunta4 respuestas">Goat</button>
+            </section>
+            <div class="btnNext">
+                <button class="btnEnviar">Enviar</button>
+            </div>
+
+        </main>
+
+        <section class="juegoFinalizadoGanador">
+            <div>
+                <p>Has acertado: <span class="preguntasAcertadas"></span> preguntas.</p>
+                <button onclick="location.reload()">Volver a jugar</button>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="script.js" type="module"/>
+</body>
+</html>
